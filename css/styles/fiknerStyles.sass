@@ -1,0 +1,138 @@
+$blanco: #ffffff
+$rojo: #C63533
+$gris: gray
+$grisTransparente: rgba(128, 128, 128, 0.34)
+
+html
+  overflow-y: scroll
+  overflow-x: hidden
+body
+  .backgroundImage
+    background-image: url("../../../images/background/background2.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    padding-bottom: 100px
+  header
+    p
+      margin-top: 10px
+      color: $blanco
+    ul
+      float: right
+      li
+        display: inline-block
+    button
+      padding-left: 50px
+      padding-right: 50px
+      padding-top: 15px
+      padding-bottom: 15px
+      background-color: transparent
+      border-radius: 10px
+      border-color: $blanco
+      color: $blanco
+      font-size: 20px
+      &:hover
+        background-color: $rojo
+
+    .navbar-default
+      background-color: transparent
+      border-color: transparent
+      .navbar-brand
+        img
+          margin-left: 15px
+
+  section.registrate
+    h1
+      color: $blanco
+    h2
+      color: $blanco
+    p
+      color: $blanco
+    #fechaNacimiento
+      margin-left: 10%
+      color: $blanco
+      font-weight: 200
+      font-style: italic
+      font-size: 15px
+    p#terminos
+    h5
+      color: $blanco
+      font-weight: 200
+      font-size: 15px
+    a
+      color: $blanco
+      font-size: 20px
+    button
+      width: 100%
+      padding-left: 50px
+      padding-right: 50px
+      padding-top: 15px
+      padding-bottom: 15px
+      color: $rojo
+      border-color: $rojo
+      font-size: 18px
+      font-weight: 600
+
+
+  section.book
+    text-align: center
+    margin-top: 100px
+    img
+      height: 80px
+    h2
+      margin-top: 70px
+      color: $gris
+    h1
+      color: $rojo
+      margin-top: -10px
+      margin-bottom: 40px
+    #texto
+      color: $gris
+      margin-bottom: 40px
+    hr
+      margin-bottom: 70px
+    #h1
+      margin-bottom: 70px
+    #profiles
+      img
+        background-color: $gris
+        height: 150px
+        width: 150px
+        border-radius: 150px
+        background-color: $grisTransparente
+        margin-bottom: 100px
+
+  section.clientes
+    text-align: center
+    background-color: $rojo
+    h1
+      margin-top: 70px
+      color: $blanco
+      margin-bottom: 70px
+    #profiles
+      img
+        background-color: $gris
+        height: 150px
+        width: 150px
+        border-radius: 150px
+        background-color: $blanco
+        margin-bottom: 100px
+
+  footer
+    #textoFooter
+      margin-top: 70px
+      color: $rojo
+      a
+        color: $gris
+        &:hover
+          color: $rojo
+      #footerLine
+        margin-top: 30px
+      ul
+        li
+          margin-top: 0px
+          list-style: none
+          margin-left: -40px
+          color: $gris
+    #fiknerCredits
+      float: right
+      color: $gris

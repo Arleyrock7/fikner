@@ -1,0 +1,121 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+body .backgroundImage {
+  background-image: url("../../../images/background/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px; }
+body header p {
+  margin-top: 10px;
+  color: #ffffff; }
+body header ul {
+  float: right; }
+  body header ul li {
+    display: inline-block; }
+body header button {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 20px; }
+  body header button:hover {
+    background-color: #C63533; }
+body header .navbar-default {
+  background-color: transparent;
+  border-color: transparent; }
+  body header .navbar-default .navbar-brand img {
+    margin-left: 15px; }
+body section.registrate h1 {
+  color: #ffffff; }
+body section.registrate h2 {
+  color: #ffffff; }
+body section.registrate p {
+  color: #ffffff; }
+body section.registrate #fechaNacimiento {
+  margin-left: 10%;
+  color: #ffffff;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 15px; }
+body section.registrate h5 {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 15px; }
+body section.registrate a {
+  color: #ffffff;
+  font-size: 20px; }
+body section.registrate button {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #C63533;
+  border-color: #C63533;
+  font-size: 18px;
+  font-weight: 600; }
+body section.book {
+  text-align: center;
+  margin-top: 100px; }
+  body section.book img {
+    height: 80px; }
+  body section.book h2 {
+    margin-top: 70px;
+    color: gray; }
+  body section.book h1 {
+    color: #C63533;
+    margin-top: -10px;
+    margin-bottom: 40px; }
+  body section.book #texto {
+    color: gray;
+    margin-bottom: 40px; }
+  body section.book hr {
+    margin-bottom: 70px; }
+  body section.book #h1 {
+    margin-bottom: 70px; }
+  body section.book #profiles img {
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background-color: rgba(128, 128, 128, 0.34);
+    margin-bottom: 100px; }
+body section.clientes {
+  text-align: center;
+  background-color: #C63533; }
+  body section.clientes h1 {
+    margin-top: 70px;
+    color: #ffffff;
+    margin-bottom: 70px; }
+  body section.clientes #profiles img {
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background-color: #ffffff;
+    margin-bottom: 100px; }
+body footer #textoFooter {
+  margin-top: 70px;
+  color: #C63533; }
+  body footer #textoFooter a {
+    color: gray; }
+    body footer #textoFooter a:hover {
+      color: #C63533; }
+  body footer #textoFooter #footerLine {
+    margin-top: 30px; }
+  body footer #textoFooter ul li {
+    margin-top: 0px;
+    list-style: none;
+    margin-left: -40px;
+    color: gray; }
+body footer #fiknerCredits {
+  float: right;
+  color: gray; }
+
+/*# sourceMappingURL=fiknerStyles.min.css.map */
