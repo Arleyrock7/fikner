@@ -17,16 +17,16 @@
                 <div class="row">
                   <div class="container">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                      <p>
+                      <p id="telefono">
                         (+57) 321 123 1156
                       </p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                      <ul>
+                      <ul id="social">
                         <li><p>social link:</p></li>
-                        <li><a href="https://www.facebook.com/Digital-HYPE-1661320184080718/?fref=ts" target="_blank"><img src="images/social/f2.png" alt="" height="35px" id="social"></a> </li>
-                        <li><a href="https://www.facebook.com/Digital-HYPE-1661320184080718/?fref=ts" target="_blank"><img src="images/social/t2.png" alt="" height="35px" id="social"></a> </li>
-                        <li><a href="https://www.facebook.com/Digital-HYPE-1661320184080718/?fref=ts" target="_blank"><img src="images/social/y2.png" alt="" height="35px" id="social"></a> </li>
+                        <li id="imgSocial"><a href="https://www.facebook.com/Digital-HYPE-1661320184080718/?fref=ts" target="_blank"><img src="images/social/f2.png" alt="" height="35px" id="social"></a> </li>
+                        <li id="imgSocial"><a href="https://www.facebook.com/Digital-HYPE-1661320184080718/?fref=ts" target="_blank"><img src="images/social/t2.png" alt="" height="35px" id="social"></a> </li>
+                        <li id="imgSocial"><a href="https://www.facebook.com/Digital-HYPE-1661320184080718/?fref=ts" target="_blank"><img src="images/social/y2.png" alt="" height="35px" id="social"></a> </li>
                       </ul>
                     </div>
                   </div>
@@ -47,12 +47,16 @@
                   </button>-->
                   <a class="navbar-brand" href="#upSection"><img src="images/logo/fikner_logo_blanco.png" alt="" height="30px"></a>
                 </div>
+                <ul class="nav navbar-nav navbar-right">
+                  <li class=""><a href="#optionSection"><button type="button" name="button">Iniciar sesión</button></a></li>
+                  <!--<li class=""><a href="#contactUsSection">CONTACTO</a></li>-->
+                </ul>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
+                  <!--<ul class="nav navbar-nav navbar-right">
                     <li class=""><a href="#optionSection"><button type="button" name="button">Iniciar sesión</button></a></li>
-                    <!--<li class=""><a href="#contactUsSection">CONTACTO</a></li>-->
-                  </ul>
+                    <li class=""><a href="#contactUsSection">CONTACTO</a></li>
+                  </ul>-->
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
               </div>
@@ -84,7 +88,7 @@
                           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <input type="text" class="form-control" placeholder="Nombres*">
                           </div>
-                          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="espacio">
+                          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="espacio1">
                             <input type="text" class="form-control" placeholder="Apellidos*">
                           </div>
                         </div>
@@ -95,13 +99,13 @@
                             <input type="text" class="form-control" placeholder="">
                           </div>
                           <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                            <input type="text" class="form-control" placeholder="" id="espacio">
+                            <input type="text" class="form-control" placeholder="" id="espacio2">
                           </div>
                           <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                            <input type="text" class="form-control" placeholder="" id="espacio">
+                            <input type="text" class="form-control" placeholder="" id="espacio3">
                           </div>
                           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                            <input type="text" class="form-control" placeholder="Número de celular*" id="espacio">
+                            <input type="text" class="form-control" placeholder="Número de celular*" id="espacio4">
                           </div>
                         </div>
                         <br>
@@ -140,6 +144,26 @@
             </div>
           </section>
   </div>
+
+
+
+  <section class="agencias">
+    <div class="row">
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <button type="submit" class="btn btn-default">¡APÚNTANTE COMO FiknerAgency!</button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <p>
+                ¿Necesitas modelos, actrices, actores y personal de apoyo?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
 
 
 
@@ -218,7 +242,7 @@
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 animatedParent" data-sequence='700' id="textoFooter">
-          NUESTROS ALIADOS
+          NUESTROS PRODUCTOS
           <hr id="footerLine">
           <ul>
             <a href="#" target="_blank"><li class="animated bounceInLeft" data-id='1'><img src="images/logo/logo_digital_gray.png" alt="" height="50px"></li></a>
@@ -275,7 +299,8 @@
 
 
   </body>
-  <script src="../js/angularJS/angular.min.js" charset="utf-8"></script>
-  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/angularJS/angular.min.js" charset="utf-8"></script>
 
+  <script type="text/javascript" src="jquery/jquery-1.8.3.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
