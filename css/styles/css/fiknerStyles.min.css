@@ -225,6 +225,22 @@ body footer.footerProfile {
     padding-bottom: 30px;
     color: #ffffff;
     font-weight: 300; }
+body .backgroundImage {
+  background-image: url("../../../images/background/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding-top: 300px;
+  padding-bottom: 300px; }
+  body .backgroundImage .navbar {
+    height: 80px; }
+  body .backgroundImage label {
+    color: #ffffff;
+    padding-bottom: 10px; }
+  body .backgroundImage .btn-default {
+    width: 100%;
+    color: #EF4036;
+    font-size: 20px; }
 
 @media (min-width: 769px) and (max-width: 991px) {
   body section.registrate #espacio3 {
@@ -325,7 +341,9 @@ body footer.footerProfile {
         margin-top: 20px; }
   body footer.footerProfile p {
     padding-top: 20px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+  body header .navbar-fixed-top .navbar-brand img {
+    margin-top: 0px; } }
 @media (min-width: 401px) and (max-width: 600px) {
   body header #telefono {
     margin-left: 0px; }
@@ -394,7 +412,12 @@ body footer.footerProfile {
         margin-top: 20px; }
   body footer.footerProfile p {
     padding-top: 20px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+  body header .navbar-fixed-top .navbar-brand img {
+    margin-top: 0px; }
+  body section.login form {
+    margin-top: -150px;
+    margin-bottom: -150px; } }
 @media (min-width: 297px) and (max-width: 400px) {
   body header #telefono {
     margin-left: 0px; }
@@ -474,7 +497,12 @@ body footer.footerProfile {
         margin-top: 20px; }
   body footer.footerProfile p {
     padding-top: 20px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+  body header .navbar-fixed-top .navbar-brand img {
+    margin-top: 0px; }
+  body section.login form {
+    margin-top: -150px;
+    margin-bottom: -150px; } }
 @media (min-width: 0px) and (max-width: 296px) {
   body header #telefono {
     margin-left: 0px; }
@@ -570,6 +598,11 @@ body footer.footerProfile {
         margin-top: 20px; }
   body footer.footerProfile p {
     padding-top: 20px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+  body header .navbar-fixed-top .navbar-brand img {
+    margin-top: 20px; }
+  body section.login form {
+    margin-top: -150px;
+    margin-bottom: -150px; } }
 
 /*# sourceMappingURL=fiknerStyles.min.css.map */
