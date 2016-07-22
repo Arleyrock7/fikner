@@ -225,19 +225,19 @@ body footer.footerProfile {
     padding-bottom: 30px;
     color: #ffffff;
     font-weight: 300; }
-body .backgroundImage {
+body .backgroundImage2 {
   background-image: url("../../../images/background/background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 50px;
   padding-top: 300px;
   padding-bottom: 300px; }
-  body .backgroundImage .navbar {
+  body .backgroundImage2 .navbar {
     height: 80px; }
-  body .backgroundImage label {
+  body .backgroundImage2 label {
     color: #ffffff;
     padding-bottom: 10px; }
-  body .backgroundImage .btn-default {
+  body .backgroundImage2 .btn-default {
     width: 100%;
     color: #EF4036;
     font-size: 20px; }
