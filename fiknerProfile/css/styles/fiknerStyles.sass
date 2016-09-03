@@ -3,11 +3,16 @@ $rojo: #C63533
 $rojo2: #EF4036
 $gris: gray
 $grisTransparente: rgba(128, 128, 128, 0.34)
+@import 'https://fonts.googleapis.com/css?family=Roboto'
 
 html
   overflow-y: scroll
   overflow-x: hidden
 body
+  font-family: 'Roboto', 'sans-serif'
+  li, p
+    color: $gris
+
   .backgroundImage
     background-image: url("../../../images/background/background2.jpg")
     background-size: cover
@@ -41,133 +46,11 @@ body
         img
           margin-left: 15px
 
-  section.registrate
-    h1
-      color: $blanco
-    h2
-      color: $blanco
-    p
-      color: $blanco
-    #fechaNacimiento
-      margin-left: 10%
-      color: $blanco
-      font-weight: 200
-      font-style: italic
-      font-size: 15px
-    p#terminos
-    h5
-      color: $blanco
-      font-weight: 200
-      font-size: 15px
-    a
-      color: $blanco
-      font-size: 20px
-
-    button
-      width: 100%
-      padding-left: 50px
-      padding-right: 50px
-      padding-top: 15px
-      padding-bottom: 15px
-      color: $rojo
-      border-color: $rojo
-      font-size: 18px
-      font-weight: 400
-
-  section.agencias
-    padding-top: 100px
-    padding-bottom: 100px
-    background-color: $grisTransparente
-    button
-      width: 100%
-      padding-left: 50px
-      padding-right: 50px
-      padding-top: 15px
-      padding-bottom: 15px
-      background-color: $rojo
-      border-color: $rojo
-      color: $blanco
-      font-size: 18px
-      font-weight: 400
-    p
-      font-size: 25px
-      color: $rojo
-      text-align: center
-      margin-top: -10px
-
-  section.book
-    text-align: center
-    margin-top: 100px
-    img
-      height: 80px
-    h2
-      margin-top: 70px
-      color: $gris
-    h1
-      color: $rojo
-      margin-top: -10px
-      margin-bottom: 40px
-    #texto
-      color: $gris
-      margin-bottom: 40px
-    hr
-      margin-bottom: 70px
-    #h1
-      margin-bottom: 70px
-    #profiles
-      img
-        background-color: $gris
-        height: 150px
-        width: 150px
-        border-radius: 150px
-        background-color: $grisTransparente
-        margin-bottom: 100px
-
-  section.clientes
-    text-align: center
-    background-color: $rojo
-    h1
-      margin-top: 70px
-      color: $blanco
-      margin-bottom: 70px
-    #profiles
-      img
-        background-color: $gris
-        height: 150px
-        width: 150px
-        border-radius: 150px
-        background-color: $blanco
-        margin-bottom: 100px
-
-  footer
-    #textoFooter
-      margin-top: 70px
-      color: $rojo
-      a
-        color: $gris
-        &:hover
-          color: $rojo
-      #footerLine
-        margin-top: 30px
-      ul
-        li
-          margin-top: 0px
-          list-style: none
-          margin-left: -40px
-          color: $gris
-    #fiknerCredits
-      float: right
-      color: $gris
-
-
-
-
-
-
 
   .navbar-default.navbar-fixed-top
     height: 60px
     background-color: $rojo
+    border-color: $rojo
     .navbar-left
       li
         a
@@ -194,98 +77,120 @@ body
       li
         a
           color: $gris
-  section.profile
-    margin-top: 150px
-    .info
-      padding-left: 100px
-      padding-right: 100px
-    h1
-      color: $rojo2
-    span
-      font-size: 12px
-      color: $blanco
-    #texto
-      color: $gris
-      font-weight: 300
-      a
+
+
+
+
+
+  #bannerProfile
+    background-color: #4b4f56
+    margin-top: 60px
+    padding-top: 30px
+    padding-bottom: 30px
+    #profileImage
+      img
+        height: 200px
+        width: 100%
+    #profileDescription
+      h2
+        font-family: Roboto
+        color: $blanco
+        //-----------------------------SISTEMA DE CALIFICACIÓN POR ESTRELLAS
+      span
+        font-size: 15px
+        .clasificacion
+          direction: ltr // right to left
+          unicode-bidi: bidi-override /* bidi de bidireccional */
+        label
+          color: $gris
+          &:hover
+            color: orange
+        label:hover ~ label
+          color: orange
+        input[type = "radio"]
+          display: none
+        input[type = "radio"]:checked ~ label
+          color: orange
+        //------------------------- FIN SISTEMA DE CALIFICACIÓN POR ESTRELLAS
+
+      h4
+        font-family: Roboto
+        font-weight: 100
+        color: $blanco
+      button
+        background-color: $blanco
+        border-color: $blanco
+        margin-bottom: 10px
+        border-radius: 0px
+      span
         color: $rojo2
-    .thumbnail
-      border-color: $rojo2
-      border-width: initial
-      border-radius: 15px
-      .caption
-        padding-left: 50px
-        padding-right: 50px
+
+
+  #profileLikes
+    ul
+      margin-top: 30px
+      li
+        list-style: none
+        font-family: sans-serif
+        font-weight: 100
+        color: $blanco
+
+
+  #infoContent
+    margin-top: 25px
+    #confianza
       h3
         color: $gris
-        text-align: center
-      #profilePhoto
-        text-align: center
-        margin-top: 30px
-        img
-          background-color: $grisTransparente
-          height: 250px
-          width: 250px
-          border-radius: 150px
-      #nameProfile
+      h4
         color: $rojo2
-        text-align: center
-        font-size: 20px
-        padding-top: 20px
-        padding-bottom: 20px
-      #info
-        color: $gris
-        .glyphicon
-          color: $rojo2
-          height: 20px
+        margin-bottom: 37px
 
-      .btn-default
-        width: 100%
-        padding-top: 10px
-        padding-bottom: 10px
-        background-color: $rojo2
-        border-color: $rojo2
-        color: $blanco
-        &:hover
-          background-color: $rojo
-          border-color: $blanco
-          color: $blanco
-  #lineHr
-    margin-top: 100px
-    margin-bottom: 100px
-  footer.footerProfile
-    background-color: $rojo
-    a
-      &:hover
-        color: $blanco
-    p
-      text-align: center
-      padding-top: 50px
-      padding-bottom: 30px
-      color: $blanco
-      font-weight: 300
-      span
+  #accordion
+    h4
+      a
+        color: $rojo2
+    .panel-default>.panel-heading
+      background-color: $blanco
+    .panel-collapse
+      ul
+        li
+          list-style: none
+          margin-left: -40px
+
+  #socialMedia
+    color: $rojo2
+    ul.social-network
+      margin-left: -20px
 
 
-  .login
-  .backgroundImage2
-    background-image: url("../../../images/background/background2.jpg")
-    background-size: cover
-    background-repeat: no-repeat
-    margin-top: 50px
-    padding-top: 300px
-    padding-bottom: 300px
-    .navbar
-      height: 80px
-    label
-      color: $blanco
-      padding-bottom: 10px
-    .btn-default
-      width: 100%
+  #sobreMi
+    h3
       color: $rojo2
-      font-size: 20px
 
+  #valoraciones
+    .perfilImageCalificador
+      img
+        width: 100%
+        height: 100px
+    .infoPerfilCalificador
+      li
+        font-size: 12px
+        a
+          color: $rojo2
+          font-size: 12px
+    button
+      background-color: transparent
+      border-color: $rojo2
+      margin-bottom: 10px
+      border-radius: 0px
+      span
+        color: $rojo2
 
+  #fotos
+    margin-top: -15px
+    color: $gris
+    .linea
+      margin-bottom: 30px
 
 
 
