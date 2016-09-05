@@ -152,95 +152,32 @@ body .navbar-default.navbar-fixed-top {
   body .navbar-default.navbar-fixed-top .navbar-right li a {
     color: #ffffff;
     margin-top: 10px; }
-  body .navbar-default.navbar-fixed-top a.dropdown-toggle:hover {
-    background-color: transparent;
-    color: #ffffff; }
-  body .navbar-default.navbar-fixed-top .dropdown li a {
-    color: gray; }
-body section.profile {
-  margin-top: 150px; }
-  body section.profile .info {
-    padding-left: 100px;
-    padding-right: 100px; }
-  body section.profile h1 {
-    color: #EF4036; }
-  body section.profile span {
-    font-size: 12px;
-    color: #ffffff; }
-  body section.profile #texto {
-    color: gray;
-    font-weight: 300; }
-    body section.profile #texto a {
-      color: #EF4036; }
-  body section.profile .thumbnail {
-    border-color: #EF4036;
-    border-width: initial;
-    border-radius: 15px; }
-    body section.profile .thumbnail .caption {
-      padding-left: 50px;
-      padding-right: 50px; }
-    body section.profile .thumbnail h3 {
-      color: gray;
-      text-align: center; }
-    body section.profile .thumbnail #profilePhoto {
-      text-align: center;
-      margin-top: 30px; }
-      body section.profile .thumbnail #profilePhoto img {
-        background-color: rgba(128, 128, 128, 0.34);
-        height: 250px;
-        width: 250px;
-        border-radius: 150px; }
-    body section.profile .thumbnail #nameProfile {
-      color: #EF4036;
-      text-align: center;
-      font-size: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px; }
-    body section.profile .thumbnail #info {
-      color: gray; }
-      body section.profile .thumbnail #info .glyphicon {
-        color: #EF4036;
-        height: 20px; }
-    body section.profile .thumbnail .btn-default {
-      width: 100%;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      background-color: #EF4036;
-      border-color: #EF4036;
-      color: #ffffff; }
-      body section.profile .thumbnail .btn-default:hover {
-        background-color: #C63533;
-        border-color: #ffffff;
-        color: #ffffff; }
-body #lineHr {
-  margin-top: 100px;
-  margin-bottom: 100px; }
-body footer.footerProfile {
-  background-color: #C63533; }
-  body footer.footerProfile a:hover {
-    color: #ffffff; }
-  body footer.footerProfile p {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    color: #ffffff;
-    font-weight: 300; }
-body .backgroundImage2 {
-  background-image: url("../../../images/background/background2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 50px;
-  padding-top: 300px;
-  padding-bottom: 300px; }
-  body .backgroundImage2 .navbar {
-    height: 80px; }
-  body .backgroundImage2 label {
-    color: #ffffff;
-    padding-bottom: 10px; }
-  body .backgroundImage2 .btn-default {
+body .books {
+  margin-top: 0px; }
+  body .books #space {
     width: 100%;
-    color: #EF4036;
-    font-size: 20px; }
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+  body .books #here {
+    height: 100 hv;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    body .books #here ul {
+      margin-top: 200px; }
+      body .books #here ul li {
+        list-style: none;
+        font-size: 20px;
+        color: #C63533; }
+      body .books #here ul span {
+        float: right;
+        color: gray; }
+    body .books #here img {
+      width: 100%;
+      height: 500px;
+      background-color: transparent; }
+    body .books #here #experiencia {
+      margin-top: 100px; }
 
 @media (min-width: 769px) and (max-width: 991px) {
   body section.registrate #espacio3 {
