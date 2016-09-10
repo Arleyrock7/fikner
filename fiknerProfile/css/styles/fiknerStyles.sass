@@ -149,6 +149,10 @@ body
     h4
       a
         color: $rojo2
+    ul
+      li 
+        span
+          color: $rojo
     .panel-default>.panel-heading
       background-color: $blanco
     .panel-collapse
@@ -194,10 +198,20 @@ body
 
 
 
+@media (min-width: 992px) and (max-width: 1199px)
+  html
+
+  body
+    .page-header 
+      padding-bottom: 29px
+    #valoraciones button
+      width: 100%
 @media (min-width: 769px) and (max-width: 991px)
   html
 
   body
+    a  
+      font-size: 15px
     header
     section.registrate
       #espacio3
@@ -239,9 +253,29 @@ body
             height: 150px
             width: 150px
 
+    #infoContent 
+      #socialMedia 
+        h3  
+          font-size: 15px
+        .social-circle li a
+          width: 50px
+          height: 50px
+          font-size: 35px  
+    #accordion
+      ul
+        li 
+          span
+            color: $rojo
+    .page-header
+      padding-bottom: 35px
+      margin: 21px 0px 0px
+    #fotos
+      margin-top: 0px
+    #sobreMi h3
+      font-size: 15px
 
-
-
+    #valoraciones button
+      width: 100%
 @media (min-width: 601px) and (max-width: 767px)
   html
 
@@ -322,7 +356,15 @@ body
           img
             margin-top: 0px
 
-
+  #bannerProfile #profileDescription h4
+    margin-top: -25px
+  #bannerProfile #profileDescription h2
+    z-index: 99
+    position: relative
+  #profileLikes
+    margin-top: -166px
+    ul 
+      float: right
 @media (min-width: 401px) and (max-width: 600px)
   html
 
@@ -415,7 +457,24 @@ body
         margin-top: -150px
         margin-bottom: -150px
 
-
+  #bannerProfile #profileDescription h4
+    margin-top: -25px
+  #bannerProfile #profileDescription h2
+    z-index: 99
+    position: relative
+  #profileLikes 
+    margin-top: -20px
+    ul
+      margin-left: -40px
+  #valoraciones button
+    margin-top: 10px
+    padding-top: 10px
+    padding-bottom: 10px
+    font-size: 15px
+    text-transform: uppercase
+  .infoPerfilCalificador
+    margin-top: 25px
+    
 //MOTO X 2 Gen
 @media (min-width: 297px) and (max-width: 400px)
   html
@@ -517,7 +576,23 @@ body
       form
         margin-top: -150px
         margin-bottom: -150px
-
+  #bannerProfile #profileDescription h4
+    margin-top: -25px
+  #bannerProfile #profileDescription h2
+    z-index: 99
+    position: relative
+  #profileLikes 
+    margin-top: -20px
+    ul
+      margin-left: -40px
+  #valoraciones button
+    margin-top: 10px
+    padding-top: 10px
+    padding-bottom: 10px
+    font-size: 15px
+    text-transform: uppercase
+  .infoPerfilCalificador
+    margin-top: 25px
 
 @media (min-width: 0px) and (max-width: 296px)
   html
@@ -635,3 +710,24 @@ body
       form
         margin-top: -150px
         margin-bottom: -150px
+
+  #bannerProfile #profileDescription h4
+    margin-top: -25px
+  #bannerProfile #profileDescription h2
+    z-index: 99
+    position: relative
+  #bannerProfile #profileDescription button
+    width: 100%
+  #profileLikes 
+    margin-top: -20px
+    ul
+      margin-left: -40px
+  #valoraciones button
+    margin-top: 10px
+    padding-top: 10px
+    padding-bottom: 10px
+    font-size: 15px
+    text-transform: uppercase
+    width: 100%
+  .infoPerfilCalificador
+    margin-top: 25px

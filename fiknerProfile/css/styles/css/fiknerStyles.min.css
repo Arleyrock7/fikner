@@ -110,6 +110,8 @@ body {
       margin-bottom: 37px; }
   body #accordion h4 a {
     color: #EF4036; }
+  body #accordion ul li span {
+    color: #C63533; }
   body #accordion .panel-default > .panel-heading {
     background-color: #ffffff; }
   body #accordion .panel-collapse ul li {
@@ -142,7 +144,14 @@ body {
     body #fotos .linea {
       margin-bottom: 30px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  body .page-header {
+    padding-bottom: 29px; }
+  body #valoraciones button {
+    width: 100%; } }
 @media (min-width: 769px) and (max-width: 991px) {
+  body a {
+    font-size: 15px; }
   body section.registrate #espacio3 {
     margin-top: 20px; }
   body section.registrate #espacio4 {
@@ -177,7 +186,24 @@ body {
       padding-right: 30px; }
     body section.profile .thumbnail #profilePhoto img {
       height: 150px;
-      width: 150px; } }
+      width: 150px; }
+  body #infoContent #socialMedia h3 {
+    font-size: 15px; }
+  body #infoContent #socialMedia .social-circle li a {
+    width: 50px;
+    height: 50px;
+    font-size: 35px; }
+  body #accordion ul li span {
+    color: #C63533; }
+  body .page-header {
+    padding-bottom: 35px;
+    margin: 21px 0px 0px; }
+  body #fotos {
+    margin-top: 0px; }
+  body #sobreMi h3 {
+    font-size: 15px; }
+  body #valoraciones button {
+    width: 100%; } }
 @media (min-width: 601px) and (max-width: 767px) {
   body header #telefono {
     margin-left: 39px; }
@@ -243,7 +269,19 @@ body {
     padding-top: 20px;
     padding-bottom: 10px; }
   body header .navbar-fixed-top .navbar-brand img {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  #bannerProfile #profileDescription h4 {
+    margin-top: -25px; }
+
+  #bannerProfile #profileDescription h2 {
+    z-index: 99;
+    position: relative; }
+
+  #profileLikes {
+    margin-top: -166px; }
+    #profileLikes ul {
+      float: right; } }
 @media (min-width: 401px) and (max-width: 600px) {
   body header #telefono {
     margin-left: 0px; }
@@ -317,7 +355,29 @@ body {
     margin-top: 0px; }
   body section.login form {
     margin-top: -150px;
-    margin-bottom: -150px; } }
+    margin-bottom: -150px; }
+
+  #bannerProfile #profileDescription h4 {
+    margin-top: -25px; }
+
+  #bannerProfile #profileDescription h2 {
+    z-index: 99;
+    position: relative; }
+
+  #profileLikes {
+    margin-top: -20px; }
+    #profileLikes ul {
+      margin-left: -40px; }
+
+  #valoraciones button {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase; }
+
+  .infoPerfilCalificador {
+    margin-top: 25px; } }
 @media (min-width: 297px) and (max-width: 400px) {
   body header #telefono {
     margin-left: 0px; }
@@ -402,7 +462,29 @@ body {
     margin-top: 0px; }
   body section.login form {
     margin-top: -150px;
-    margin-bottom: -150px; } }
+    margin-bottom: -150px; }
+
+  #bannerProfile #profileDescription h4 {
+    margin-top: -25px; }
+
+  #bannerProfile #profileDescription h2 {
+    z-index: 99;
+    position: relative; }
+
+  #profileLikes {
+    margin-top: -20px; }
+    #profileLikes ul {
+      margin-left: -40px; }
+
+  #valoraciones button {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase; }
+
+  .infoPerfilCalificador {
+    margin-top: 25px; } }
 @media (min-width: 0px) and (max-width: 296px) {
   body header #telefono {
     margin-left: 0px; }
@@ -503,6 +585,32 @@ body {
     margin-top: 20px; }
   body section.login form {
     margin-top: -150px;
-    margin-bottom: -150px; } }
+    margin-bottom: -150px; }
+
+  #bannerProfile #profileDescription h4 {
+    margin-top: -25px; }
+
+  #bannerProfile #profileDescription h2 {
+    z-index: 99;
+    position: relative; }
+
+  #bannerProfile #profileDescription button {
+    width: 100%; }
+
+  #profileLikes {
+    margin-top: -20px; }
+    #profileLikes ul {
+      margin-left: -40px; }
+
+  #valoraciones button {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 100%; }
+
+  .infoPerfilCalificador {
+    margin-top: 25px; } }
 
 /*# sourceMappingURL=fiknerStyles.min.css.map */
